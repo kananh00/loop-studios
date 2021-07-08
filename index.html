@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;350;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+</head>
+<body>
+  <main> 
+    <header class="header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col p-0 col-lg-5">
+              <div class="logo">
+                <img src="images/logo.svg" alt="logo">
+              </div>
+            </div>
+            
+            <div class="col p-0 col-lg-7">
+              <div  class="menu_icon">
+                <img id="menu-icon" src="images/icon-hamburger.svg" alt="menu icon">
+              </div>
+              <div id="nav-menu" class="nav_menu">
+                <div class="menu_header">
+                  <div class="container">
+                  <div class="row">
+                    <div class="col p-0">
+                      <div id="nav-logo" class="logo">
+                        <img src="images/logo.svg" alt="logo">
+                      </div>
+                    </div>
+                    <div class="col p-0">
+                      <div id="close-icon" class="close_icon">
+                        <img src="images/icon-close.svg" alt="close icon">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <ul class="list">
+                    <li class="item"><a href="#about" class="nav_link selected first_nav">about</a></li>
+                    <li class="item"><a href="#careers" class="nav_link">careers</a></li>
+                    <li class="item"><a href="#events" class="nav_link">events</a></li>
+                    <li class="item"><a href="#products" class="nav_link">products</a></li>
+                    <li class="item"><a href="#support" class="nav_link">support</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+    <section id="menu-sect" class="menu_section">
+      <div class="heading_wrapper">
+        <div class="welcome_heading">
+          <h1 class="heading">Immersive<br> experiences<br> that deliver</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="vr-sect">
+      <div class="container-fluid p-0">
+        <div class="row">
+          <div class="col-12 col-lg-6 p-0">
+            <div class="vr_img">
+              <img class="mob_interactive" src="images/mobile/image-interactive.jpg" alt="vr man">
+              <img class="desk_interactive" src="images/desktop/image-interactive.jpg" alt="vr man">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 p-0">
+            <div class="vr_text">
+              <h1 class="heading_title">The leader in interactive VR</h1>
+              <p class="vr_desc">Founded in 2011, Loopstudios has been producing world-class virtual reality 
+              projects for some of the best companies around the globe. Our award-winning 
+              creations have transformed businesses through digital experiences that bind 
+              to their brand.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </section>
+
+    <section class="our_creations">
+      <div class="container-fluid p-0">
+        <div class="row"> 
+          <div class="col-12 col-lg-6 p-0">
+            <h1 class="heading_title">Our creations</h1>
+          </div>
+          <div class="col-12 col-lg-6 p-0">
+            <div class="desk_btn">
+              <button class="see_all_desk_btn">see all</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_part">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 p-0">
+              <div class="img_wrapper">
+                <img class = "grid_img" src="images/mobile/image-deep-earth.jpg" alt="Deep earth">
+                <h1 class="img_heading">Deep<br> earth</h1>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 p-0">
+              <div class="img_wrapper">
+                <img class = "grid_img" src="images/mobile/image-night-arcade.jpg" alt="Night arcade">
+                <h1 class="img_heading">Night<br> arcade</h1>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 p-0">
+              <div class="img_wrapper">
+                <img class = "grid_img" src="images/mobile/image-soccer-team.jpg" alt="Soccer team VR">
+                <h1 class="img_heading">Soccer<br> team VR</h1>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 p-0">
+              <div class="img_wrapper">
+                <img class = "grid_img" src="images/mobile/image-grid.jpg" alt="The grid">
+                <h1 class="img_heading">The<br> grid</h1>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 p-0">
+              <div class="img_wrapper">
+                <img class = "grid_img" src="images/mobile/image-from-above.jpg" alt="From up above VR">
+                <h1 class="img_heading">From up<br> above VR</h1>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 p-0">
+              <div class="img_wrapper">
+                <img class = "grid_img" src="images/mobile/image-pocket-borealis.jpg" alt="Pocket borealis">
+                <h1 class="img_heading">Pocket<br> borealis</h1>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 p-0">
+              <div class="img_wrapper">
+                <img class = "grid_img" src="images/mobile/image-curiosity.jpg" alt="The curiosity">
+                <h1 class="img_heading">The<br> curiosity</h1>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 p-0">
+              <div class="img_wrapper">
+                <img class = "grid_img" src="images/mobile/image-fisheye.jpg" alt="Make it fisheye">
+                <h1 class="img_heading">Make it<br> fisheye</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_part_desk">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-3 p-0">
+              <div class="img_wrapper">
+                <img class = "grid_img" src="images/desktop/image-deep-earth.jpg" alt="Deep earth">
+                <h1 class="img_heading">Deep<br> earth</h1>
+              </div>
+            </div>
+            <div class="col-lg-3 p-0">
+              <div class="img_wrapper">
+                <img class = "grid_img" src="images/desktop/image-night-arcade.jpg" alt="Night arcade">
+                <h1 class="img_heading">Night<br> arcade</h1>
+              </div>
+            </div>
+            <div class="col-lg-3 p-0">
+              <div class="img_wrapper">
+                <img class = "grid_img" src="images/desktop/image-soccer-team.jpg" alt="Soccer team VR">
+                <h1 class="img_heading">Soccer<br> team VR</h1>
+              </div>
+            </div>
+            <div class="col-lg-3 p-0">
+              <div class="img_wrapper">
+                <img class = "grid_img" src="images/desktop/image-grid.jpg" alt="The grid">
+                <h1 class="img_heading">The<br> grid</h1>
+              </div>
+            </div>
+            <div class="col-lg-3 p-0">
+              <div class="img_wrapper">
+                <img class = "grid_img" src="images/desktop/image-from-above.jpg" alt="From up above VR">
+                <h1 class="img_heading">From up<br> above VR</h1>
+              </div>
+            </div>
+            <div class="col-lg-3 p-0">
+              <div class="img_wrapper">
+                <img class = "grid_img" src="images/desktop/image-pocket-borealis.jpg" alt="Pocket borealis">
+                <h1 class="img_heading">Pocket<br> borealis</h1>
+              </div>
+            </div>
+            <div class="col-lg-3 p-0">
+              <div class="img_wrapper">
+                <img class = "grid_img" src="images/desktop/image-curiosity.jpg" alt="The curiosity">
+                <h1 class="img_heading">The<br> curiosity</h1>
+              </div>
+            </div>
+            <div class="col-lg-3 p-0">
+              <div class="img_wrapper">
+                <img class = "grid_img" src="images/desktop/image-fisheye.jpg" alt="Make it fisheye">
+                <h1 class="img_heading">Make it<br> fisheye</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn">
+        <button class="see_all_btn">see all</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="logo">
+              <img src="images/logo.svg" alt="logo">
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="nav_links first">
+              <a href="#" class="link">About</a>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="nav_links">
+              <a href="#" class="link">Careers</a>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="nav_links">
+              <a href="#" class="link">Events</a>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="nav_links">
+              <a href="#" class="link">Products</a>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="nav_links">
+              <a href="#" class="link">Support</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="social_media">
+        <div class="container">
+          <div class="row">
+            <div class="col-3 p-0">
+              <a href="" class="social_links"><img src="images/icon-facebook.svg" alt="facebook"></a>
+            </div>
+            <div class="col-3 p-0">
+              <a href="" class="social_links"><img src="images/icon-twitter.svg" alt="twitter"></a>
+            </div>
+            <div class="col-3 p-0">
+              <a href="" class="social_links"><img src="images/icon-pinterest.svg" alt="pinterest"></a>
+            </div>
+            <div class="col-3 p-0">
+              <a href="" class="social_links"><img src="images/icon-instagram.svg" alt="instagram"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="footer_text">&#169; 2021 Loopstudios. All rights reserved.</p>
+    </footer>
+    <footer class="desk_footer">
+      <div class="logo_s_links">
+        <div class="container fluid">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="footer_logo">
+                <img src="images/logo.svg" alt="logo">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="social_media_wrapper">
+                <div class="container fluid">
+                  <div class="row">
+                    <div class="col-3">
+                      <div class="col-3 p-0">
+                        <a href="" class="social_links"><img src="images/icon-facebook.svg" alt="facebook"></a>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="col-3 p-0">
+                        <a href="" class="social_links"><img src="images/icon-twitter.svg" alt="twitter"></a>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="col-3 p-0">
+                        <a href="" class="social_links"><img src="images/icon-pinterest.svg" alt="pinterest"></a>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="col-3 p-0">
+                        <a href="" class="social_links"><img src="images/icon-instagram.svg" alt="instagram"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="navigation_links" style="display: flex; flex-direction: row; width: 100%;">
+              <div class="nav_links">
+                <a href="#" class="link">About</a>
+              </div>
+              <div class="nav_links">
+                <a href="#" class="link">Careers</a>
+              </div>
+              <div class="nav_links">
+                <a href="#" class="link">Events</a>
+              </div>
+              <div class="nav_links">
+                <a href="#" class="link">Products</a>
+              </div>
+              <div class="nav_links">
+                <a href="#" class="link">Support</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <p class="footer_text">&#169; 2021 Loopstudios. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  
+  <!-- 
+  
+  
+  
+  
+
+  Immersive experiences that deliver
+
+ 
+
+  
+
+  
+
+  See all
+
+  
+  
+  Soccer team VR
+  The grid
+  From up above VR
+  Pocket borealis
+  The curiosity
+  Make it fisheye
+
+  About
+  Careers
+  Events
+  Products
+  Support
+
+  © 
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
